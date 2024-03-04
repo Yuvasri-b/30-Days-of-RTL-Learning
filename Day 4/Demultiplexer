@@ -1,0 +1,13 @@
+Day 2
+
+Topic       : Demultiplexer
+
+Truth table :  1x4
+
+| Sel | Input | Output 0 | Output 1 | Output 2 | Output 3 |
+|-----|-------|----------|----------|----------|----------|
+|  00 |   1   |    I     |    0     |    0     |    0     |
+|  01 |   1   |    0     |    I     |    0     |    0     |
+|  10 |   1   |    0     |    0     |    I     |    0     |
+|  11 |   1   |    0     |    0     |    0     |    I     |
+
