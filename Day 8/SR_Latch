@@ -1,0 +1,21 @@
+Day 8
+
+Topic       :  SR Latch
+
+Truth Table :
+
+
+S  | R  | Q(t) | Q(t+1)
+---|----|------|-------
+0  | 0  | Q(t) | Q(t)
+0  | 1  | Q(t) | 0
+1  | 0  | Q(t) | 1
+1  | 1  | -    | -
+
+
+In this truth table:
+
+S is the set input.
+R is the reset input.
+Q(t) represents the current state of the output.
+Q(t+1) represents the next state of the output.
