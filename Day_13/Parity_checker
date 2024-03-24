@@ -1,0 +1,11 @@
+Day 13
+
+Topic       : Parity Checker
+
+Functiona   :
+
+* This code implements a parity checker for 8-bit data.
+
+* It calculates the number of 1's in the data and checks if it's even or odd.
+
+* Based on the parity type (even or odd, configured by the user), the output parity indicates if there's a mismatch in the number of 1's compared to the expected parity.
