@@ -3,3 +3,14 @@ Day 16
 Topic       :  SERIAL IN PARALLEL OUT SHIFT REGISTER
 
 Truth Table :
+
+4-bit SIPO
+
+SERIAL DATA INPUT - 1001
+
+clk  |  I1 | I2 | I3 | I4 ||  O1  | O2 | O3 | O4 ||
+-----|-----|----|----|----||------|----|----|----||
+ 1   |  0  | 0  | 0  |  1 ||  0   |  0 | 0  |  1 ||
+ 1   |  0  | 0  | 1  |  0 ||  0   |  0 | 1  |  0 ||
+ 1   |  0  | 1  | 0  |  0 ||  0   |  1 | 0  |  0 ||
+ 1   |  1  | 0  | 0  |  1 ||  1   |  0 | 0  |  1 ||
