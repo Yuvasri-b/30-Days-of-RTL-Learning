@@ -1,3 +1,6 @@
 Day 22
 
 Topic : Mealy_sequence_detector
+
+* A Mealy sequence detector is a finite state machine (FSM) used to detect specific sequences of inputs in a digital system.
+
