@@ -1,0 +1,24 @@
+Day 24
+
+Topic       : Universal_shift_register
+
+
+Truth Table :  data_in - 1010
+
+
+| Time | clk | rst | shift_left | shift_right | data_in | data_out |
+|------|-----|-----|------------|-------------|---------|----------|
+|   0  |  0  |  1  |     0      |      0      |  0000   |  unchanged |
+|   5  |  1  |  1  |     0      |      0      |  0000   |  unchanged |
+|  10  |  0  |  0  |     0      |      0      |  0000   |  unchanged |
+|  15  |  1  |  0  |     0      |      0      |  0000   |  unchanged |
+|  20  |  0  |  0  |     1      |      0      |  0000   |  unchanged |
+|  25  |  1  |  0  |     1      |      0      |  0000   |  0000 shifted left by 1 |
+|  30  |  0  |  0  |     0      |      0      |  1010   |  0100 (data_in shifted left by 1) |
+|  35  |  1  |  0  |     0      |      0      |  1010   |  0010 (data_in shifted left by 1) |
+|  40  |  0  |  0  |     0      |      1      |  1010   |  1101 (data_in shifted right by 1) |
+|  45  |  1  |  0  |     0      |      1      |  1010   |  1110 (data_in shifted right by 1) |
+|  60  |  0  |  0  |     0      |      1      |  1010   |  1111 (data_in shifted right by 1) |
+
+
+* A Universal Shift Register is a digital circuit that can shift data in both directions (left and right) and perform various operations such as parallel load, parallel transfer, serial input, and serial output. It's called "universal" because it provides a flexible means of shifting data in different ways, making it suitable for a wide range of applications.
