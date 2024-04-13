@@ -33,6 +33,9 @@
  25. [DAY 25 - Shift_and_add_multiplier](https://github.com/Yuvasri-b/30-Days-of-RTL-Learning/tree/main/Day_25)
  26. [DAY 26 - Binary_counter](https://github.com/Yuvasri-b/30-Days-of-RTL-Learning/tree/main/Day_26)
  27. [DAY 27 - Ring_counter](https://github.com/Yuvasri-b/30-Days-of-RTL-Learning/tree/main/Day_27)
+
+# Appilication :
+
  28. [DAY 28 - Traffic_light_controller](https://github.com/Yuvasri-b/30-Days-of-RTL-Learning/tree/main/Day_28)
  29. [DAY 29 - Elevator_control](https://github.com/Yuvasri-b/30-Days-of-RTL-Learning/tree/main/Day_29)
  30. [DAY 30 - Factorial](https://github.com/Yuvasri-b/30-Days-of-RTL-Learning/tree/main/Day_30)
